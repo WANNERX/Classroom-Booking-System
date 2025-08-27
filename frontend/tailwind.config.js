@@ -10,6 +10,7 @@ export default {
     extend: {},
   },
   plugins: [
+    require('tailwindcss-animated'),
     flowbite.plugin(),
   ],
 };

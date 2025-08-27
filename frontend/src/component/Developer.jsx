@@ -1,10 +1,5 @@
 import { Card } from "flowbite-react";
-import {
-  FaAnglesDown,
-  FaFacebook,
-  FaLine,
-  FaSquareInstagram,
-} from "react-icons/fa6";
+import { FaFacebook, FaLine, FaSquareInstagram } from "react-icons/fa6";
 
 function Developer() {
   return (
@@ -18,7 +13,7 @@ function Developer() {
           imgAlt="Meaningful alt text for an image that is not purely decorative"
           imgSrc="img/phai.jpg"
         >
-          <h1 className="text-2xl font-bold tracking-tight text-red-500 drop-shadow-lg text-center bg-white/50">
+          <h1 className="text-2xl font-bold tracking-tight text-red-500 drop-shadow-lg text-center bg-white/50 rounded-md">
             Frontend
           </h1>
           <h5 className="text-2xl font-bold tracking-tight text-white drop-shadow-lg">
@@ -42,7 +37,7 @@ function Developer() {
           imgAlt="Meaningful alt text for an image that is not purely decorative"
           imgSrc="img/biwty.jpg"
         >
-          <h1 className="text-2xl font-bold tracking-tight text-red-500 drop-shadow-lg text-center bg-white/50">
+          <h1 className="text-2xl font-bold tracking-tight text-red-500 drop-shadow-lg text-center bg-white/50 rounded-md">
             Backend
           </h1>
           <h5 className="text-2xl font-bold tracking-tight text-white drop-shadow-lg">
@@ -62,12 +57,13 @@ function Developer() {
           </div>
         </Card>
         <a href="#1">
-          <FaAnglesDown className="w-12 h-12" />
+          <img src="img/arrow.gif" alt="" className="w-12 h-12" />
         </a>
       </div>
       <div className="mt-4 w-1/2" id="1">
         <p className="text-wrap p-5">
-          Project นี้ทำเพื่อช่วยในการจัดแจงเวลาให้เป็นระบบ
+          <h className="font-bold">Project</h>{" "}
+          นี้ทำเพื่อช่วยในการจัดแจงเวลาให้เป็นระบบ
           ระบบจองห้องเรียนจะเป็นเครื่องมือที่ช่วยยกระดับการจัดการทรัพยากรในสถานศึกษา
           ทำให้การบริหารจัดการมีความรวดเร็ว และสะดวกสบายยิ่งขึ้น
           ทั้งยังช่วยลดข้อผิดพลาด ซึ่งมีบทบาทสำคัญในการพัฒนาคุณภาพการเรียนการสอน
